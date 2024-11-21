@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Bokor&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.header {
+  position: sticky;
+  top: 20px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: 1111;
+  width: 90%;
+  height: 86px;
+  padding: 0px 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  background: #171717;
+  --webkit-backdrop-filter: blur(7.5px);
+}
+.header a {
+  display: flex;
+  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  color: var(--white, #fff);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+.header .active {
+  background-color: #fd853a;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+.header div:nth-child(4) {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header div div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--white, #fff);
+  font-family: "Bokor", system-ui;
+  font-size: 23px;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: normal;
+  letter-spacing: 1.3px;
+}
+.header div div img {
+  width: 46px;
+  height: 46px;
+}

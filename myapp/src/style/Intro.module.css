@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Bokor&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.intro {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+/* Greeting */
+.container {
+  position: relative;
+  height: 87vh;
+}
+.container .greeting {
+  width: 10%;
+  margin: auto;
+  position: relative;
+  margin-bottom: 20px;
+}
+.container .greeting p {
+  padding: 12.745px 25.49px;
+  border-radius: 38.235px;
+  border: 1.275px solid #171717;
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  color: #171717;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+.container .greeting img {
+  position: absolute;
+  top: -20px;
+  right: -27px;
+}
+
+/* Intro Text */
+
+.container .introText {
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+.container .introText p {
+  color: #171717;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 82px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -1.433px;
+}
+.container .introText p span {
+  color: #fd853a;
+  font-family: "Bokor";
+  font-size: 95.566px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -1.433px;
+}
+.container .introText img {
+  position: absolute;
+  bottom: -50px;
+  left: -10px;
+}
+
+/* Testimonial */
+
+.container .testimonial {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.container .testimonial .quote {
+  width: 30%;
+}
+.container .testimonial .quote p {
+  color: #344054;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .testimonial .quote p img {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
+.container .testimonial .experience {
+  text-align: end;
+}
+.container .testimonial .experience > p {
+  color: #171717;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 47px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -0.705px;
+  margin-top: 15px;
+}
+.container .testimonial .experience span {
+  color: #171717;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%; /* 20px */
+  letter-spacing: -0.3px;
+}
+
+/* Photo Container */
+
+.container .photoContainer {
+  width: 45%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.container .photoContainer img {
+  width: 100%;
+}
+
+/* Buttons */
+.container .buttons {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  height: 82px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 11;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+}
+
+.container .buttons .portfolioBtn {
+  display: flex;
+  width: 60%;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 60px;
+  border: 0.5px solid #d0d5dd;
+  background: #fd853a;
+  text-decoration: none;
+}
+.container .buttons .portfolioBtn p {
+  color: var(--white, #fff);
+  font-family: "Roboto";
+  font-size: 25.692px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.385px;
+}
+.container .buttons > a {
+  width: 35%;
+  color: var(--white, #fff);
+  font-family: "Roboto";
+  font-size: 25.692px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.385px;
+  text-decoration: none;
+}
