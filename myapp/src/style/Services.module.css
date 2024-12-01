@@ -65,7 +65,7 @@
   -webkit-backdrop-filter: blur(7.5px);
   border: 2px solid rgba(249, 250, 251, 0.3);
   border-radius: 50px;
-  height: 500px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -87,6 +87,6 @@
 .serviceBoxes div img {
   width: 100%;
   border-radius: 50px;
-  height: 250px;
-  border-top: 2px solid rgba(249, 250, 251, 0.3);
+  height: 300px;
+  /* border-top: 2px solid rgba(249, 250, 251, 0.3); */
 }
