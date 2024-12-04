@@ -42,21 +42,21 @@ function Header() {
       <div>
         <Link
           smooth
-          to="#about"
-          onClick={() => handleSetActiveLink("about")}
-          className={activeLink === "about" ? style.active : ""}
-        >
-          <p>About</p>
-        </Link>
-      </div>
-      <div>
-        <Link
-          smooth
           to="#services"
           onClick={() => handleSetActiveLink("services")}
           className={activeLink === "services" ? style.active : ""}
         >
           <p>Service</p>
+        </Link>
+      </div>
+      <div>
+        <Link
+          smooth
+          to="#about"
+          onClick={() => handleSetActiveLink("about")}
+          className={activeLink === "about" ? style.active : ""}
+        >
+          <p>About</p>
         </Link>
       </div>
       <div>

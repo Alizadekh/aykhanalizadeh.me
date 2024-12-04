@@ -69,6 +69,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.serviceBoxes > div:hover {
+  background-color: #fd853aba;
+  border: 2px solid white;
 }
 .serviceBoxes > div div {
   width: 100%;
