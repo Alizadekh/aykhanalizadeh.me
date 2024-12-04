@@ -1,10 +1,27 @@
 import { HashLink as Link } from "react-router-hash-link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import style from "../style/Header.module.css";
 import Logo from "../assets/img/Logo.png";
 
 function Header() {
   const [activeLink, setActiveLink] = useState<string>("home");
+
+  useEffect(() => {
+    const sections = document.querySelectorAll<HTMLElement>("section");
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveLink(entry.target.id);
+          }
+        });
+      },
+      { threshold: 0.6 }
+    );
+
+    sections.forEach((section) => observer.observe(section));
+    return () => observer.disconnect();
+  }, []);
 
   const handleSetActiveLink = (link: string) => {
     setActiveLink(link);
@@ -36,8 +53,8 @@ function Header() {
         <Link
           smooth
           to="#services"
-          onClick={() => handleSetActiveLink("service")}
-          className={activeLink === "service" ? style.active : ""}
+          onClick={() => handleSetActiveLink("services")}
+          className={activeLink === "services" ? style.active : ""}
         >
           <p>Service</p>
         </Link>

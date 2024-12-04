@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Bokor&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.hireMeSection {
+  border-radius: 50px;
+  background: #f2f4f7;
+  padding: 50px 0;
+}
+.hireMeSection .hireMeContent {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.hireMeContent img {
+  width: 40%;
+}
+
+.hireMeContent .infoDiv {
+  width: 50%;
+}
+.infoDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.infoDiv h2 {
+  color: #344054;
+  font-family: "Roboto";
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -0.96px;
+}
+.infoDiv h2 span {
+  color: #fd853a;
+}
+.infoDiv p {
+  width: 90%;
+  color: #98a2b3;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+.infoDiv .stats {
+  display: flex;
+  justify-content: space-between;
+}
+.infoDiv .stats div {
+  width: 50%;
+}
+.infoDiv .stats div h5 {
+  color: #1d2939;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.54px;
+}
+
+.infoDiv .actionBtns {
+  display: flex;
+  gap: 20px;
+  width: 80%;
+}
+.actionBtns button {
+  width: 40%;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  border: 1px solid #151515;
+  color: #151515;
+  background-color: #f2f4f7;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.actionBtns button:hover {
+  background-color: black;
+  color: white;
+}
