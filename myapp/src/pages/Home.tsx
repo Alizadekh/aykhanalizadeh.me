@@ -1,3 +1,4 @@
+import Contact from "../components/Contact";
 import Experience from "../components/Experience";
 import HireMe from "../components/HireMe";
 import Intro from "../components/Intro";
@@ -12,6 +13,7 @@ function Home() {
       <Experience />
       <HireMe />
       <Projects />
+      <Contact />
     </div>
   );
 }
