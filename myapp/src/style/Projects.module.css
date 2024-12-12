@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Bokor&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.projects {
+  padding: 60px 0;
+  position: relative;
+}
+.projectsContent {
+  width: 90%;
+  margin: auto;
+}
+.projectsContent .projectsTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.projectsContent .projectsTitle h2 {
+  width: 50%;
+  color: #344054;
+  font-family: "Roboto";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+.projectsContent .projectsTitle h2 span {
+  color: #fd853a;
+}
+.projectsContent .projectsTitle button {
+  display: flex;
+  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  background: #fd853a;
+  border: none;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  cursor: pointer;
+}
+
+.allProjects {
+  display: flex;
+  justify-content: space-between;
+}
+.projectsCube {
+  width: 48%;
+}
+.projectsInformation {
+  width: 48%;
+}
+
+.swiper {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.swiper {
+  --swiper-pagination-color: #fd853a;
+  --swiper-pagination-bullet-inactive-color: #999999;
+  --swiper-pagination-bullet-inactive-opacity: 1;
+  --swiper-pagination-bullet-size: 16px;
+  --swiper-pagination-bullet-horizontal-gap: 6px;
+}
+
+.projectCard {
+  background: #f4f4f4;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.projectCard img {
+  width: 100%;
+  position: relative;
+}
+.projectCard h5 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fffaf5;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px;
+  background-color: #00000073;
+  border-radius: 20px;
+}
+
+/* Project Informations */
+.projectsInformation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Roboto";
+  text-align: end;
+}
+.projectsInformation h2 {
+  color: #fd853a;
+  font-family: "Roboto";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.72px;
+}
+.projectsInformation p {
+  color: #344054;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+.projectsInformation .usedTools {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: end;
+  padding-right: 10px;
+  border-right: 3px solid #fd853a;
+}
+.projectsInformation .usedTools span {
+  padding: 10px;
+  background-color: #3333331f;
+  border-radius: 20px;
+}
+
+/* Project Link */
+
+.projectsInformation .projectLinks {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+.projectLinks a {
+  color: #fd853a;
+  text-decoration: none;
+}
