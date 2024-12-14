@@ -4,7 +4,7 @@ import style from "../style/HireMe.module.css";
 const HireMe: React.FC = () => {
   const content = {
     info: "Innovative and passionate Front-End Developer with experience in designing and developing user-friendly, responsive web applications. Skilled in TypeScript, React, Redux, React Native, Material UI and other modern technologies",
-    experience: "2+",
+    experience: "1.5+",
     projects: "10+",
   };
   return (

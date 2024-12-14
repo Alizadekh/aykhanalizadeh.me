@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Bokor&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.footer {
+  padding: 25px 0;
+  border-radius: 24px 24px 0px 0px;
+  background: #272727;
+}
+.footerSection {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.footerTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+}
+.footerTitle h2 {
+  color: #fcfcfd;
+  font-family: "Roboto";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+.footerTitle button {
+  display: flex;
+  cursor: pointer;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  background: #fd853a;
+  color: #fff;
+  border: none;
+  font-family: "Roboto";
+  font-size: 25.692px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.385px;
+}
+.footerContent {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(255, 255, 255, 0.423);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.423);
+  color: white;
+}
+
+.footerContent .footerTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 50%;
+}
+.footerContent .brandSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+.brandLogo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 25px;
+  font-family: "Bokor";
+}
+.brandLogo img {
+  width: 46px;
+}
+.brandDescription {
+  color: #fcfcfd;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+.socialMedia {
+  display: flex;
+  gap: 10px;
+}
+.socialMedia a {
+  color: #fcfcfd;
+}
+.navigationSection p {
+  color: #fd853a;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  margin-bottom: 20px;
+}
+.navigationSection ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.navigationSection ul li a {
+  color: #fcfcfd;
+  text-decoration: none;
+  font-family: "Roboto";
+  transition: 0.4s;
+  font-weight: 300;
+}
+.navigationSection ul li a:hover {
+  color: #fd853a;
+}
+
+/* Contact */
+.contactSection p {
+  color: #fd853a;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  margin-bottom: 20px;
+}
+.contactSection ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contactSection ul li a {
+  color: #fcfcfd;
+  text-decoration: none;
+  font-family: "Roboto";
+  transition: 0.4s;
+  font-weight: 300;
+}
+.contactSection ul li a:hover {
+  color: #fd853a;
+}
+
+.footerEnd {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}

@@ -1,3 +1,4 @@
+import React from "react";
 import Stars from "../assets/decorations/Starts.png";
 import smallVector from "../assets/decorations/Line (small).svg";
 import bigVector from "../assets/decorations/Line (big).svg";
@@ -7,7 +8,7 @@ import quoteUp from "../assets/decorations/quote-up.svg";
 import style from "../style/Intro.module.css";
 import { HashLink as Link } from "react-router-hash-link";
 
-function Intro() {
+const Intro: React.FC = () => {
   return (
     <section id="home" className={style.intro}>
       <div className={style.container}>
@@ -18,23 +19,23 @@ function Intro() {
         <div className={style.introText}>
           <img src={bigVector} alt="Big Vector" />
           <p>
-            I'm <span>Aykhan</span>, <br /> Software Developer
+            I'm <span>Aykhan</span>, <br /> Frontend Developer
           </p>
         </div>
         <div className={style.testimonial}>
           <div className={style.quote}>
             <p>
-              <img src={quoteUp} alt="" />
+              <img src={quoteUp} alt="Quote Icon" />
               <p>
-                Jenny's Exceptional product design ensure our website's success.
+                Designing a website from code is like making a pizza.
                 <br />
-                Highly Recommended
+                Recommended for you too
               </p>
             </p>
           </div>
           <div className={style.experience}>
             <img src={Stars} alt="Stars" />
-            <p>2 Years</p>
+            <p>1.5 Years</p>
             <span>Experience</span>
           </div>
         </div>
@@ -53,6 +54,6 @@ function Intro() {
       </div>
     </section>
   );
-}
+};
 
 export default Intro;

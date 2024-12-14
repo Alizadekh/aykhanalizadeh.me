@@ -73,6 +73,7 @@
   font-weight: 500;
   line-height: normal;
   letter-spacing: -0.3px;
+  cursor: pointer;
 }
 .successMessage {
   color: #fd853a;

@@ -21,16 +21,16 @@ const myExperiences = [
       "Maintained communication with management to report progress and align with institutional goals.",
     ],
   },
-  {
-    title: "Graphics Designer",
-    type: "Intern",
-    company: "Destech Training and Consulting",
-    date: "07.2023 - 09.2023",
-    myTasks: [
-      "Designed and developed social media posts and promotional materials, leveraging strong graphic design skills.",
-      "Collaborated with the team to create impactful visual content to enhance the firm's online presence.",
-    ],
-  },
+  // {
+  //   title: "Graphics Designer",
+  //   type: "Intern",
+  //   company: "Destech Training and Consulting",
+  //   date: "07.2023 - 09.2023",
+  //   myTasks: [
+  //     "Designed and developed social media posts and promotional materials, leveraging strong graphic design skills.",
+  //     "Collaborated with the team to create impactful visual content to enhance the firm's online presence.",
+  //   ],
+  // },
 ];
 
 export default myExperiences;
