@@ -96,3 +96,35 @@
   height: 300px;
   /* border-top: 2px solid rgba(249, 250, 251, 0.3); */
 }
+
+@media only screen and (max-width: 768px) {
+  .services {
+    padding: 55px 0;
+  }
+  .info {
+    flex-direction: column;
+  }
+  .info p {
+    width: 98%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .serviceBoxes {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .serviceBoxes div {
+    width: 100%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .serviceBoxes {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .serviceBoxes div {
+    width: 48%;
+  }
+}

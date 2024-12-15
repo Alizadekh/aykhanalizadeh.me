@@ -25,10 +25,10 @@ const Contact: React.FC = () => {
               <span>ALIZADEH</span>
             </div>
             <p className={style.brandDescription}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              congue interdum ligula a dignissim. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Sed lobortis orci elementum egestas
-              lobortis.
+              Innovative and passionate Front-End Developer with experience in
+              designing and developing user-friendly, responsive web
+              applications. Skilled in TypeScript, React, Redux, React Native,
+              Material UI and other modern technologies
             </p>
             <div className={style.socialMedia}>
               <a href="">

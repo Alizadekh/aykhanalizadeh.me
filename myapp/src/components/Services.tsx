@@ -13,8 +13,8 @@ const Services: React.FC = () => {
             My <span>Services</span>
           </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus
-            nunc, posuere in justo vulputate, bibendum sodales
+            Innovative and passionate Front-End Developer with experience in
+            designing and developing user-friendly, responsive web applications.
           </p>
         </div>
         <div className={style.serviceBoxes}>
