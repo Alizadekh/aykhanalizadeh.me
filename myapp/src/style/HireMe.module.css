@@ -89,3 +89,45 @@
   background-color: black;
   color: white;
 }
+
+@media only screen and (max-width: 768px) {
+  .hireMeSection .hireMeContent {
+    flex-direction: column-reverse;
+  }
+  .hireMeContent img {
+    width: 98%;
+  }
+
+  .hireMeContent .infoDiv {
+    width: 98%;
+    margin: auto;
+  }
+  .infoDiv h2 {
+    font-size: 42px;
+    text-align: center;
+  }
+  .infoDiv p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .infoDiv .actionBtns {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+  }
+  .infoDiv .stats {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    align-items: center;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .infoDiv h2 {
+    font-size: 42px;
+  }
+  .infoDiv p {
+    font-size: 18px;
+  }
+}

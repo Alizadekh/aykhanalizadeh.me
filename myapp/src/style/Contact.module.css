@@ -80,3 +80,29 @@
   font-family: "Roboto";
   font-style: italic;
 }
+
+@media only screen and (max-width: 768px) {
+  .contactContent {
+    width: 90%;
+  }
+  .contactContent > form {
+    width: 98%;
+  }
+  .contactContent h2 {
+    font-size: 40px;
+  }
+  .contactContent > form input {
+    margin-left: 10px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contactContent {
+    width: 80%;
+  }
+  .contactContent h2 {
+    font-size: 48px;
+  }
+  .contactContent > form input {
+    margin-left: 10px;
+  }
+}

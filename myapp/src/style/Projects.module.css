@@ -140,3 +140,63 @@
   color: #fd853a;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 768px) {
+  .projectsContent .projectsTitle h2 {
+    font-size: 38px;
+  }
+  .allProjects {
+    flex-direction: column;
+  }
+  .projectsCube {
+    width: 98%;
+  }
+  .projectsInformation {
+    width: 98%;
+  }
+  .projectCard h5 {
+    display: none;
+  }
+  .projectsInformation {
+    text-align: left;
+  }
+  .projectsInformation h2 {
+    font-size: 36px;
+  }
+  .projectsInformation .usedTools {
+    justify-content: flex-start;
+    padding-left: 10px;
+    border-left: 3px solid #fd853a;
+    border-right: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .projectsContent .projectsTitle h2 {
+    font-size: 38px;
+  }
+  .allProjects {
+    flex-direction: column;
+  }
+  .projectsCube {
+    width: 98%;
+    margin-bottom: 20px;
+  }
+  .projectsInformation {
+    width: 98%;
+  }
+  .projectCard h5 {
+    display: none;
+  }
+  .projectsInformation {
+    text-align: left;
+  }
+  .projectsInformation h2 {
+    font-size: 36px;
+  }
+  .projectsInformation .usedTools {
+    justify-content: flex-start;
+    padding-left: 10px;
+    border-left: 3px solid #fd853a;
+    border-right: 0;
+  }
+}

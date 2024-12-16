@@ -154,3 +154,30 @@
   line-height: normal;
   letter-spacing: -0.3px;
 }
+
+@media only screen and (max-width: 768px) {
+  .footerTitle {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footerTitle h2 {
+    font-size: 42px;
+  }
+  .footerTitle button {
+    width: 90%;
+  }
+  .footerContent {
+    flex-direction: column;
+  }
+  .footerContent .brandSection {
+    width: 98%;
+  }
+  .navigationSection {
+    margin: 20px 0;
+  }
+  .footerEnd {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+}
