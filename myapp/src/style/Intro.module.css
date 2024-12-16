@@ -193,6 +193,12 @@
   .container .introText {
     width: 90%;
   }
+  .introText p {
+    font-size: 62px !important;
+  }
+  .container .introText p span {
+    font-size: 72px;
+  }
   .container .introText img {
     display: none;
   }
@@ -207,6 +213,9 @@
   .container .testimonial .quote {
     width: 50%;
   }
+  .quote p {
+    font-size: 14px !important;
+  }
   .container .photoContainer {
     width: 80%;
   }
@@ -214,8 +223,11 @@
     display: none;
   }
   .container .buttons {
-    width: 80%;
+    width: 85%;
     background: rgba(0, 0, 0, 0.1);
+    position: static;
+    transform: translateX(0%);
+    margin-top: 20px;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
