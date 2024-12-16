@@ -27,6 +27,7 @@ function Header() {
 
   const handleSetActiveLink = (link: string) => {
     setActiveLink(link);
+    setToggleMenu(false);
   };
 
   const handleToggleMenu = () => {

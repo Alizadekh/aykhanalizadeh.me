@@ -31,19 +31,19 @@ const Contact: React.FC = () => {
               Material UI and other modern technologies
             </p>
             <div className={style.socialMedia}>
-              <a href="">
+              <a href="https://www.facebook.com/profile.php?id=100083098305688">
                 <FaFacebook className={style.socialIcon} />
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/aykhan_alizadeh/profilecard/?igsh=MXI2eXc1cHMyc2F4aQ==">
                 <FaInstagram className={style.socialIcon} />
               </a>
-              <a href="">
+              <a href="https://youtube.com/@aykhanalizadeh?si=7ldZSgjfq2_7V93P">
                 <FaYoutube className={style.socialIcon} />
               </a>
               <a href="">
                 <FaGithub className={style.socialIcon} />
               </a>
-              <a href="">
+              <a href="https://github.com/Alizadekh">
                 <FaWhatsapp className={style.socialIcon} />
               </a>
             </div>
@@ -52,22 +52,22 @@ const Contact: React.FC = () => {
             <p className={style.sectionTitle}>Navigation</p>
             <ul className={style.navigationList}>
               <li className={style.navigationItem}>
-                <a href="">Home</a>
+                <a href="#home">Home</a>
               </li>
               <li className={style.navigationItem}>
-                <a href="">Service</a>
+                <a href="#services">Service</a>
               </li>
               <li className={style.navigationItem}>
-                <a href="">About</a>
+                <a href="#about">About</a>
               </li>
               <li className={style.navigationItem}>
-                <a href="">Resume</a>
+                <a href="#resume">Resume</a>
               </li>
               <li className={style.navigationItem}>
-                <a href="">Project</a>
+                <a href="#projects">Project</a>
               </li>
               <li className={style.navigationItem}>
-                <a href="">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>

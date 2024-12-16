@@ -43,7 +43,7 @@ const Intro: React.FC = () => {
           <img src={MyPhoto} alt="My Photo" />
         </div>
         <div className={style.buttons}>
-          <Link smooth to="#project" className={style.portfolioBtn}>
+          <Link smooth to="#projects" className={style.portfolioBtn}>
             <p>Portfolio</p>
             <img src={UpRight} alt="Arrow" />
           </Link>
