@@ -75,7 +75,7 @@ const Contact: React.FC = () => {
             <p className={style.sectionTitle}>Contact</p>
             <ul className={style.contactList}>
               <li className={style.contactItem}>
-                <a href="tel:+994773079115">+9943079115</a>
+                <a href="tel:+994773079115">+994773079115</a>
               </li>
               <li className={style.contactItem}>
                 <a href="mailto:aykhanalizadekh@gmail.com">
