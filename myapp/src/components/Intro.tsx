@@ -1,7 +1,6 @@
 import React from "react";
 import Stars from "../assets/decorations/Starts.png";
 import smallVector from "../assets/decorations/Line (small).svg";
-import bigVector from "../assets/decorations/Line (big).svg";
 import UpRight from "../assets/decorations/UpRight.svg";
 import MyPhoto from "../assets/img/MyPhoto.png";
 import quoteUp from "../assets/decorations/quote-up.svg";
@@ -17,7 +16,6 @@ const Intro: React.FC = () => {
           <img src={smallVector} alt="Small Vector" />
         </div>
         <div className={style.introText}>
-          <img src={bigVector} alt="Big Vector" />
           <p>
             I'm <span>Aykhan</span>, <br /> Frontend Developer
           </p>
